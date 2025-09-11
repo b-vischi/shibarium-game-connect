@@ -1,0 +1,8 @@
+cat <<EOL > .gitignore
+node_modules/
+.env
+.env.local
+dist/
+cache/
+artifacts/
+EOL
