@@ -62,14 +62,20 @@ shibarium-game-connect/
 ```
 ## Contributing
 Contributions are welcome!
+
 • Fork the repo
+
 • Create a feature branch
+
 • Submit a pull request 🚀
 
 ## 🌐 Community Vision
 This project aims to:
+
 • Encourage developers to build on Shibarium
+
 • Provide templates for game integration
+
 • Explore creative ways to support SHIB burning
 
 ## License
