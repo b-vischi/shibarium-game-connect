@@ -80,3 +80,32 @@ This project aims to:
 
 ## License
 This project is licensed under the MIT License.
+
+## 🔥 Use Cases
+
+This framework enables developers to integrate Shibarium-based smart contracts into their games in order to automatically burn SHIB tokens through gameplay.
+There are two main adoption paths:
+
+### 1. New Web3 Games
+
+&nbsp;&nbsp;&nbsp;&nbsp;Developers building from scratch can:
+
+  &nbsp;&nbsp;&nbsp;&nbsp;• Deploy the provided GameItems smart contract on Shibarium Puppynet (testnet) or mainnet.
+
+  &nbsp;&nbsp;&nbsp;&nbsp;• Mint NFTs or in-game items tied directly to blockchain transactions.
+
+  &nbsp;&nbsp;&nbsp;&nbsp;• Define rules where every mint, transfer, or special action burns a percentage of SHIB.
+
+  &nbsp;&nbsp;&nbsp;&nbsp;• Example: A battle game where entering an arena requires a SHIB payment, and 10% of that entry fee is burned.
+
+### 2. Existing Web2 or Hybrid Games
+
+  &nbsp;&nbsp;&nbsp;&nbsp;Games that already exist can integrate by adding a burn + blockchain rewards layer:
+
+  &nbsp;&nbsp;&nbsp;&nbsp;• Call the deployment scripts or interact with the contract using the ethers API.
+
+  &nbsp;&nbsp;&nbsp;&nbsp;• Trigger SHIB burns on specific backend events (e.g., item upgrades, premium actions, loot box purchases).
+
+  &nbsp;&nbsp;&nbsp;&nbsp;• Reward players with NFTs or achievements tied to these transactions.
+
+  &nbsp;&nbsp;&nbsp;&nbsp;• Example: An RPG where upgrading a weapon in the traditional game engine also calls the burn function on Shibarium, removing SHIB from circulation and issuing an NFT certificate of upgrade.
